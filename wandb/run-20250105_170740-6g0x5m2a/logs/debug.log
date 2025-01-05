@@ -1,0 +1,27 @@
+2025-01-05 17:07:40,892 INFO    MainThread:44476 [wandb_setup.py:_flush():68] Current SDK version is 0.19.1
+2025-01-05 17:07:40,892 INFO    MainThread:44476 [wandb_setup.py:_flush():68] Configure stats pid to 44476
+2025-01-05 17:07:40,893 INFO    MainThread:44476 [wandb_setup.py:_flush():68] Loading settings from C:\Users\User\.config\wandb\settings
+2025-01-05 17:07:40,893 INFO    MainThread:44476 [wandb_setup.py:_flush():68] Loading settings from c:\xampp\htdocs\Smoker_Detection\wandb\settings
+2025-01-05 17:07:40,893 INFO    MainThread:44476 [wandb_setup.py:_flush():68] Loading settings from environment variables
+2025-01-05 17:07:40,893 INFO    MainThread:44476 [wandb_init.py:_log_setup():528] Logging user logs to c:\xampp\htdocs\Smoker_Detection\wandb\run-20250105_170740-6g0x5m2a\logs\debug.log
+2025-01-05 17:07:40,893 INFO    MainThread:44476 [wandb_init.py:_log_setup():529] Logging internal logs to c:\xampp\htdocs\Smoker_Detection\wandb\run-20250105_170740-6g0x5m2a\logs\debug-internal.log
+2025-01-05 17:07:40,895 INFO    MainThread:44476 [wandb_init.py:init():644] calling init triggers
+2025-01-05 17:07:40,895 INFO    MainThread:44476 [wandb_init.py:init():650] wandb.init called with sweep_config: {}
+config: {'learning_rate': 0.001, 'epochs': 10, 'batch_size': 32, 'img_height': 250, 'img_width': 250}
+2025-01-05 17:07:40,895 INFO    MainThread:44476 [wandb_init.py:init():680] starting backend
+2025-01-05 17:07:40,895 INFO    MainThread:44476 [wandb_init.py:init():684] sending inform_init request
+2025-01-05 17:07:40,901 INFO    MainThread:44476 [backend.py:_multiprocessing_setup():104] multiprocessing start_methods=spawn, using: spawn
+2025-01-05 17:07:40,901 INFO    MainThread:44476 [wandb_init.py:init():697] backend started and connected
+2025-01-05 17:07:40,902 INFO    MainThread:44476 [wandb_run.py:_label_probe_notebook():1222] probe notebook
+2025-01-05 17:07:40,904 INFO    MainThread:44476 [wandb_run.py:_label_probe_notebook():1232] Unable to probe notebook: 'gbk' codec can't decode byte 0x80 in position 54115: illegal multibyte sequence
+2025-01-05 17:07:40,904 INFO    MainThread:44476 [wandb_init.py:init():790] updated telemetry
+2025-01-05 17:07:40,953 INFO    MainThread:44476 [wandb_init.py:init():822] communicating run to backend with 90.0 second timeout
+2025-01-05 17:09:11,632 ERROR   MainThread:44476 [wandb_init.py:init():849] encountered error: Run initialization has timed out after 90.0 sec. Please try increasing the timeout with the `init_timeout` setting: `wandb.init(settings=wandb.Settings(init_timeout=120))`.
+2025-01-05 17:09:11,632 ERROR   MainThread:44476 [wandb_init.py:init():1308] error in wandb.init()
+Traceback (most recent call last):
+  File "c:\Python312\Lib\site-packages\wandb\sdk\wandb_init.py", line 1298, in init
+    return wi.init()
+           ^^^^^^^^^
+  File "c:\Python312\Lib\site-packages\wandb\sdk\wandb_init.py", line 855, in init
+    raise error
+wandb.errors.errors.CommError: Run initialization has timed out after 90.0 sec. Please try increasing the timeout with the `init_timeout` setting: `wandb.init(settings=wandb.Settings(init_timeout=120))`.
