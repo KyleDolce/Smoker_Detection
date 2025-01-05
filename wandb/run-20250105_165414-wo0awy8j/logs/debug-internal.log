@@ -1,0 +1,9 @@
+{"time":"2025-01-05T16:54:14.2100435+08:00","level":"INFO","msg":"using version","core version":"0.19.1"}
+{"time":"2025-01-05T16:54:14.2105665+08:00","level":"INFO","msg":"created symlink","path":"c:\\xampp\\htdocs\\Smoker_Detection\\wandb\\run-20250105_165414-wo0awy8j\\logs\\debug-core.log"}
+{"time":"2025-01-05T16:54:14.3998171+08:00","level":"INFO","msg":"created new stream","id":"wo0awy8j"}
+{"time":"2025-01-05T16:54:14.4003638+08:00","level":"INFO","msg":"stream: started","id":"wo0awy8j"}
+{"time":"2025-01-05T16:54:14.4003638+08:00","level":"INFO","msg":"writer: Do: started","stream_id":"wo0awy8j"}
+{"time":"2025-01-05T16:54:14.4003638+08:00","level":"INFO","msg":"sender: started","stream_id":"wo0awy8j"}
+{"time":"2025-01-05T16:54:14.4003638+08:00","level":"INFO","msg":"handler: started","stream_id":"wo0awy8j"}
+{"time":"2025-01-05T16:54:14.714338+08:00","level":"ERROR","msg":"HTTP error","status":404,"method":"POST","url":"https://api.wandb.ai/graphql"}
+{"time":"2025-01-05T16:54:14.714338+08:00","level":"ERROR","msg":"sender: upsertRun:","error":"failed to upsert bucket: returned error 404 Not Found: {\"errors\":[{\"message\":\"project not found\",\"path\":[\"upsertBucket\"]}],\"data\":{\"upsertBucket\":null}}"}
